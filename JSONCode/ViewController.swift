@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         #if false
         let url = URL(string: "https://opendata.epa.gov.tw/ws/Data/AQI/?$format=json")
         #else
+        // This is to receive my created page.
         let url = URL(string: "http://localhost/read_purchase_json2.php")
         #endif
         let data = try! Data(contentsOf: url!)
